@@ -1,0 +1,12 @@
+﻿target_sources (Chess PRIVATE "main.cpp"
+							  "Chess.cpp"
+							  "../include/IMovement.h"
+							  "../include/Position.h"
+							  "../include/ChessPiece.h"
+							  "../include/Knight.h"
+							  "../include/Pawn.h"
+							  "../include/Bishop.h"
+							  "../include/Queen.h"
+							  "King.cpp"
+							  "ChessBoard.cpp"
+  "ChessPiece.cpp" "Knight.cpp"  "Pawn.cpp"  "Position.cpp")
